@@ -7,6 +7,7 @@ public class BTMaxPath {
     }
 
     private int maxHelper(TreeNode root) {
+        // empty, recursive base case
         if (root == null) {return 0;};
 
         // if sub sums are negative, discard them, would only lower maxSum
